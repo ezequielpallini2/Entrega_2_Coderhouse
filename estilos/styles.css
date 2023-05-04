@@ -9,16 +9,14 @@ box-sizing: border-box;
 
 header {
     background-color: lightskyblue;
-    height: 80px;
-    width: 100%;
+    
     color: white;
-    padding: 20px;
+    
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    
 }
 
 header img {
@@ -68,8 +66,9 @@ header img {
     font-family: fuente;
     font-size: xx-large;
     src: url(fonts/fuente.ttf);
-    height: 800;
-    width: 4000;
+    height: auto;
+    width: 100%;
+    padding: 8%;
 
 
 }
@@ -101,7 +100,9 @@ img {
     display: table;    
     padding: 10px 7px 2px 8px;
 }
-
+.navbar {
+    border: none;
+}
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -136,6 +137,8 @@ input[type=text], select {
 .second{
     background-color: #139baa;
     font-size: medium;
+    padding: 8%;
+    margin-bottom: 10%;
 }
 
 footer{
