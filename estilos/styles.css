@@ -66,9 +66,8 @@ header img {
     font-family: fuente;
     font-size: xx-large;
     src: url(fonts/fuente.ttf);
-    height: auto;
-    width: 100%;
-    padding: 8%;
+    
+    padding: 0%;
 
 
 }
@@ -100,9 +99,7 @@ img {
     display: table;    
     padding: 10px 7px 2px 8px;
 }
-.navbar {
-    border: none;
-}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -129,7 +126,12 @@ input[type=text], select {
   }
   
   div {
-    border-radius: 5px;
+   
+
+
+
+    margin: 8px 0;
+    border: none;
     background-color:  #00aec3;
     padding: 20px;
   }
@@ -138,7 +140,21 @@ input[type=text], select {
     background-color: #139baa;
     font-size: medium;
     padding: 8%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
+}
+
+.row{
+    background-color: #139baa;
+    font-size: medium;
+
+
+}
+
+.col{
+    background-color: #139baa;
+    font-size: medium;
+
+
 }
 
 footer{
