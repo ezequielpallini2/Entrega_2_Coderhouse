@@ -61,11 +61,13 @@ header img {
     text-shadow: 0 0 5px gray;
 }
 
-.main {
+main {
     background-color: #00aec3; 
     font-family: fuente;
     font-size: xx-large;
     src: url(fonts/fuente.ttf);
+    margin-top: 244px;
+    margin-bottom: 135px;
     
     padding: 0%;
 
