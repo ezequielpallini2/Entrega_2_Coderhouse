@@ -67,8 +67,31 @@ header {
 .logo {
   float: left;
   text-shadow: 0 0 5px gray;
+  animation: slide 5s infinite linear;
 }
 
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rotate-on-hover:hover {
+  animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 main {
   background-color: $00aec3;
   font-family: $fuente;
