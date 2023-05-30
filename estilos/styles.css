@@ -3,8 +3,13 @@ box-sizing: border-box;
 
 }
 @font-face {
-    font-family: fuente;
-    src: url(fonts/fuente.ttf);
+    font-family: inherit;
+    src: url(../fonts/fuente.ttf);
+}
+body {
+
+  font-family: 'Oswald', sans-serif;
+
 }
 
 header {
